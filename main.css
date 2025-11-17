@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fb;
+  color: #333;
+}
+
+/* Navigation */
+#nav {
+  width: 100%;
+  background: #0a3d62;
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+#nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav li {
+  margin: 0 20px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(to right, #0a3d62, #16a085);
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 2px solid #0a3d62;
+  text-decoration: none;
+  color: #0a3d62;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: #0a3d62;
+  color: white;
+}
+
+.button.primary {
+  background: #16a085;
+  border: none;
+  color: white;
+}
+
+/* Project Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0a3d62;
+  color: white;
+  margin-top: 40px;
+}
