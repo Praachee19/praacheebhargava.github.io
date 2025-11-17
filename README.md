@@ -1,4 +1,4 @@
-# praacheebhargava.github.io
+
 ## Praachee Bhargava
 Data Analyst and AI Specialist
 I design data driven solutions that strengthen decision making in retail, marketing and digital commerce. My work focuses on predictive modelling, customer analytics and Generative AI for demand forecasting, category optimisation, customer retention and revenue improvement. I translate complex data into clear, actionable insights using strong modelling, structured workflows and real time dashboards. My experience blends retail marketing leadership, edtech project execution and finance research.
